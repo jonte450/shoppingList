@@ -53,12 +53,13 @@ p{
 body{
   background-image: url("shopping.jpg");
   background-repeat: no-repeat;
-  background-size: auto 1000px;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
+
 li{
   margin: 15px;
 }
