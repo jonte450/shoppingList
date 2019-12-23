@@ -13,7 +13,7 @@ function createListElement() {
 	btn.className = "btn-success";
 	btn.appendChild(document.createTextNode("Remove"));
 	var li = document.createElement("li");
-	li.className = "text-warning";
+	li.className = "text-danger";
 	li.appendChild(document.createTextNode(input.value));
 	ul.appendChild(li);
 	ul.appendChild(btn);
