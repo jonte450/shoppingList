@@ -10,9 +10,10 @@ function inputLength() {
 function createListElement() {
 	var btn = document.createElement("BUTTON");
 	btn.name = "Remove";
-	btn.className = "frame";
+	btn.className = "btn-success";
 	btn.appendChild(document.createTextNode("Remove"));
 	var li = document.createElement("li");
+	li.className = "text-warning";
 	li.appendChild(document.createTextNode(input.value));
 	ul.appendChild(li);
 	ul.appendChild(btn);
